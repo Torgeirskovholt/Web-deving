@@ -13,14 +13,16 @@ body {
 
 .author-img {
   float: left;
+
+  /*  margin-bottom: 20px;*/
 }
 
 .author {
+  float: left;
   font-style: italic;
   font-size: 18px;
-  padding-left: 10px;
-  padding-top: 10px;
-  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .post-img {
@@ -76,6 +78,15 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
 }
 
 h2 {
@@ -217,4 +228,8 @@ h2::before {
 
 .main-page header:first-child {
   margin-bottom: 40px;
+}
+
+footer p {
+  font-size: 18px;
 }
